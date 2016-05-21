@@ -3,7 +3,7 @@
   <groupId>com.sample</groupId>
   <artifactId>SampleTestProj</artifactId>
   <version>1.0</version>
-  <packaging>war</packaging>
+  <packaging>war</packaging><!-- TEST-->
   <dependencies>
   	<dependency>
   		<groupId>org.springframework</groupId>
