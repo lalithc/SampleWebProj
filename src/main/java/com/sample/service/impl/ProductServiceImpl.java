@@ -37,6 +37,25 @@ public class ProductServiceImpl implements ProductService {
 		  
 	    return products;
 	  }
+	  
+	  @Override
+	public Product getProduct(String productId) {
+	
+		  Product product = new Product();
+		  product.setCategory("AN");
+		  product.setCondition("good");
+		  product.setDescription("Iphone");
+		  product.setDiscontinued(true);
+		  product.setManufacturer("Apple");
+		  product.setName("Iphone");
+		  product.setProductId(productId);
+		  product.setUnitPrice(new BigDecimal("2.2"));
+		  product.setUnitsInOrder(200);
+		  product.setUnitsInStock(45);
+		  
+		  
+		return product;
+	}
 
 	 
 

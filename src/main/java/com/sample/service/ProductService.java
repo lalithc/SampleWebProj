@@ -16,5 +16,7 @@ import com.sample.domain.Product;
 public interface ProductService {
 
 	List<Product> getAllProducts();
+
+	Product getProduct(String productId);
 	
 }

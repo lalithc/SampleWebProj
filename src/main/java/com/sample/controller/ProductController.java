@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.sample.domain.Product;
 import com.sample.service.ProductService;
 
 /**
@@ -30,6 +31,14 @@ public class ProductController {
 		 modelAndView.addObject("products", productService.getAllProducts());
 		 modelAndView.setViewName("products");
 		 return modelAndView;
+	 }
+	 
+	 @RequestMapping("/product/{productid}")
+	 public Product getProduct(String productId){
+		 
+		 Product product = productService.getProduct(productId);
+		 
+		 return product;
 	 }
 	
 }
