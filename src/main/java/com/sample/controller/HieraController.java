@@ -17,12 +17,7 @@ public class HieraController {
 	
 	@RequestMapping("/deploy{productid}")
 	public String deploy(String env,String module,String version)throws Exception{
-		
-<<<<<<< HEAD
-		//cvcxvcxvcxv
-=======
-		//
->>>>>>> branch 'master' of https://github.com/lalithc/SampleWebProj.git
+	
 		
 		return null;
 	}
