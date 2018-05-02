@@ -57,6 +57,7 @@
 	    <scope>test</scope>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.codehaus.sonar/sonar-maven-plugin -->
+        <!-- test with second branch towards multi branching and commit tags-->
         <dependency>
 	    <groupId>org.codehaus.sonar</groupId>
 	    <artifactId>sonar-maven-plugin</artifactId>
